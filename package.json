@@ -1,0 +1,90 @@
+{
+  "name": "flight-booking-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@gsebdev/react-simple-datepicker": "^1.0.21",
+    "@mui/material": "^5.13.5",
+    "@ramonak/react-progress-bar": "^5.0.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@tailwindcss/forms": "^0.5.3",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "concurrently": "^8.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "nodemailer": "^6.9.3",
+    "npm": "^9.7.1",
+    "otp-generator": "^4.0.1",
+    "react": "^18.2.0",
+    "react-calendar": "^4.3.0",
+    "react-datepicker": "^4.14.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.44.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.8.0",
+    "react-otp-input": "^3.0.2",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^8.0.5",
+    "react-responsive-datepicker": "^1.0.6",
+    "react-rounded-image": "^2.0.15",
+    "react-router-dom": "^6.13.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.3",
+    "react-type-animation": "^3.0.1",
+    "redux-toolkit": "^1.1.2",
+    "swiper": "^9.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish55js/Flight_Booking.git"
+  },
+  "author": "Ashish",
+  "bugs": {
+    "url": "https://github.com/Ashish55js/Flight_Booking/issues"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-datepicker": "^4.11.2",
+    "gh-pages": "^5.0.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "homepage": "https://Ashish55js.github.io/Flight_Booking",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "license": "ISC",
+  "description": ""
+}
